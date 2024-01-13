@@ -10,16 +10,14 @@ export default function navbar() {
         </Link>
         </h1> 
         <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
-                    <Link className="text-white/90 hover:text-white" href="https://www.youtube.com/@DaveGrayTeachesCode">
+                    <Link className="text-white/90 hover:text-white" href="https://www.youtube.com/@JamshedAliSyed">
                         <FaYoutube />
                     </Link>
-                    <Link className="text-white/90 hover:text-white" href="https://courses.davegray.codes/">
-                        <FaLaptop />
-                    </Link>
-                    <Link className="text-white/90 hover:text-white" href="https://github.com/gitdagray">
+                    
+                    <Link className="text-white/90 hover:text-white" href="https://github.com/SyedJamshedAli/">
                         <FaGithub />
                     </Link>
-                    <Link className="text-white/90 hover:text-white" href="https://twitter.com/yesdavidgray">
+                    <Link className="text-white/90 hover:text-white" href="https://twitter.com/jamshedalisyed">
                         <FaTwitter />
                     </Link>
                 </div>
