@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  distDir: 'build',
+  distDir: 'app/build',
 }
