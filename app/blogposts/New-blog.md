@@ -1,5 +1,5 @@
 ---
-title: 'This is another new Blog from Jam'
+title: 'This is another new Blog from Jam For Vercel'
 date: '2023-03-14'
 ---
 
