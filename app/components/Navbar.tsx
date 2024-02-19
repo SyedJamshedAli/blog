@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaYoutube, FaTwitter, FaGithub, FaLaptop } from "react-icons/fa"
+import { FaYoutube, FaTwitter, FaGithub, FaLaptop, FaLinkedinIn, FaFreeCodeCamp, FaChalkboardTeacher, FaConnectdevelop } from "react-icons/fa"
 export default function navbar() {
   return (
     <nav className="bg-slate-600 p-4 sticky top-0 drop-shadow-xl z-10">
@@ -17,9 +17,17 @@ export default function navbar() {
                     <Link className="text-white/90 hover:text-white" href="https://github.com/SyedJamshedAli/">
                         <FaGithub />
                     </Link>
-                    <Link className="text-white/90 hover:text-white" href="https://twitter.com/jamshedalisyed">
-                        <FaTwitter />
+                    <Link className="text-white/90 hover:text-white" href="https://www.linkedin.com/in/syedjamshedali/">
+                        <FaLinkedinIn />
                     </Link>
+                    <Link className="text-white/90 hover:text-white" href="https://www.upwork.com/freelancers/~0189c68c364c117985d">
+                        <FaConnectdevelop />
+                    </Link>
+                    <Link className="text-white/90 hover:text-white" href="https://courses.SyedJ.com">
+                        <FaChalkboardTeacher />
+                    </Link>
+                    
+                    
                 </div>
         </div>
 
